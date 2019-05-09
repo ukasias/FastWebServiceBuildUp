@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<title>Selector</title>
+		<meta name="author" content="Administrator" />
+		<!-- Date: 2016-01-25 -->
+	</head>
+	<body>
+		<h2 style="color:blue"> Hello World! </h2>
+		
+		<script>
+			alert($("h2").attr("style"));
+			$("h2").attr("id", "hello");
+			$("h2").attr({"name":"world", "data":"Hello World"});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+{
+	"Car" : [
+		{ "Brand" : "GM" , "Name" : "Cruze"},
+		{ "Brand" : "BMW", "Name" : "320D"}
+	]
+}
+
+Car[0].Brand == GM

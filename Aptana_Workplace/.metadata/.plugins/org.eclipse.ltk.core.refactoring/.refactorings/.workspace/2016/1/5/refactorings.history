@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ch5_JavaScript&apos; to &apos;Ch5_JavaScript_jQuery&apos;" description="Rename resource &apos;Ch5_JavaScript&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Ch5_JavaScript" name="Ch5_JavaScript_jQuery" stamp="1453708129295" updateReferences="true"/>
+</session>

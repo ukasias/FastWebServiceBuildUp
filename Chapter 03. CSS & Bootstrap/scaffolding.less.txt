@@ -1,0 +1,195 @@
+1 // 
+2 // Scaffolding 
+3 // -------------------------------------------------- 
+4 
+ 
+5 
+ 
+6 // Reset the box-sizing 
+7 // 
+8 // Heads up! This reset may cause conflicts with some third-party widgets. 
+9 // For recommendations on resolving such conflicts, see 
+10 // http://getbootstrap.com/getting-started/#third-box-sizing 
+11 * { 
+12   .box-sizing(border-box); 
+13 } 
+14 *:before, 
+15 *:after { 
+16   .box-sizing(border-box); 
+17 } 
+18 
+ 
+19 
+ 
+20 // Body reset 
+21 
+ 
+22 html { 
+23   font-size: 10px; 
+24   -webkit-tap-highlight-color: rgba(0,0,0,0); 
+25 } 
+26 
+ 
+27 body { 
+28   font-family: @font-family-base; 
+29   font-size: @font-size-base; 
+30   line-height: @line-height-base; 
+31   color: @text-color; 
+32   background-color: @body-bg; 
+33 } 
+34 
+ 
+35 // Reset fonts for relevant elements 
+36 input, 
+37 button, 
+38 select, 
+39 textarea { 
+40   font-family: inherit; 
+41   font-size: inherit; 
+42   line-height: inherit; 
+43 } 
+44 
+ 
+45 
+ 
+46 // Links 
+47 
+ 
+48 a { 
+49   color: @link-color; 
+50   text-decoration: none; 
+51 
+ 
+52   &:hover, 
+53   &:focus { 
+54     color: @link-hover-color; 
+55     text-decoration: @link-hover-decoration; 
+56   } 
+57 
+ 
+58   &:focus { 
+59     .tab-focus(); 
+60   } 
+61 } 
+62 
+ 
+63 
+ 
+64 // Figures 
+65 // 
+66 // We reset this here because previously Normalize had no `figure` margins. This 
+67 // ensures we don't break anyone's use of the element. 
+68 
+ 
+69 figure { 
+70   margin: 0; 
+71 } 
+72 
+ 
+73 
+ 
+74 // Images 
+75 
+ 
+76 img { 
+77   vertical-align: middle; 
+78 } 
+79 
+ 
+80 // Responsive images (ensure images don't scale beyond their parents) 
+81 .img-responsive { 
+82   .img-responsive(); 
+83 } 
+84 
+ 
+85 // Rounded corners 
+86 .img-rounded { 
+87   border-radius: @border-radius-large; 
+88 } 
+89 
+ 
+90 // Image thumbnails 
+91 // 
+92 // Heads up! This is mixin-ed into thumbnails.less for `.thumbnail`. 
+93 .img-thumbnail { 
+94   padding: @thumbnail-padding; 
+95   line-height: @line-height-base; 
+96   background-color: @thumbnail-bg; 
+97   border: 1px solid @thumbnail-border; 
+98   border-radius: @thumbnail-border-radius; 
+99   .transition(all .2s ease-in-out); 
+100 
+ 
+101   // Keep them at most 100% wide 
+102   .img-responsive(inline-block); 
+103 } 
+104 
+ 
+105 // Perfect circle 
+106 .img-circle { 
+107   border-radius: 50%; // set radius in percents 
+108 } 
+109 
+ 
+110 
+ 
+111 // Horizontal rules 
+112 
+ 
+113 hr { 
+114   margin-top:    @line-height-computed; 
+115   margin-bottom: @line-height-computed; 
+116   border: 0; 
+117   border-top: 1px solid @hr-border; 
+118 } 
+119 
+ 
+120 
+ 
+121 // Only display content to screen readers 
+122 // 
+123 // See: http://a11yproject.com/posts/how-to-hide-content/ 
+124 
+ 
+125 .sr-only { 
+126   position: absolute; 
+127   width: 1px; 
+128   height: 1px; 
+129   margin: -1px; 
+130   padding: 0; 
+131   overflow: hidden; 
+132   clip: rect(0,0,0,0); 
+133   border: 0; 
+134 } 
+135 
+ 
+136 // Use in conjunction with .sr-only to only display content when it's focused. 
+137 // Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1 
+138 // Credit: HTML5 Boilerplate 
+139 
+ 
+140 .sr-only-focusable { 
+141   &:active, 
+142   &:focus { 
+143     position: static; 
+144     width: auto; 
+145     height: auto; 
+146     margin: 0; 
+147     overflow: visible; 
+148     clip: auto; 
+149   } 
+150 } 
+151 
+ 
+152 
+ 
+153 // iOS "clickable elements" fix for role="button" 
+154 // 
+155 // Fixes "clickability" issue (and more generally, the firing of events such as focus as well) 
+156 // for traditionally non-focusable elements with role="button" 
+157 // see https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile 
+158 
+ 
+159 [role="button"] { 
+160   cursor: pointer; 
+161 } 

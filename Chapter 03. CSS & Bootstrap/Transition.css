@@ -1,0 +1,13 @@
+a { text-decoration: none; }
+
+a.foo {
+	padding: 1em 2em;
+	background: #00ff00;
+	-webkit-transition: all 0.5s ease;
+}
+
+a.foo:hover {
+	background: #ffd700;
+	color:#fff;
+}
+

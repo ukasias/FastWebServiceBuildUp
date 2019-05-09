@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>JSONP_test</title>
+		<script src="./jquery-1.8.3.js"></script>
+		<script src="./jquery-ui-1.9.2.custom.min.js"></script>
+		<link href="./jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="images"></div>
+		<script>
+			var url="http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+			var sendData = { tags: "cat", tagmode: "any", format: "json"}	
+		</script>
+	</body>
+</html>
+

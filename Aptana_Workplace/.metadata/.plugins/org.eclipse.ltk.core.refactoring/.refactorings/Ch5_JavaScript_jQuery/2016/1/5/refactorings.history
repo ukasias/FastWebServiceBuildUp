@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Ch5_JavaScript_jQuery/prepared.css&apos; to &apos;style.css&apos;" description="Rename resource &apos;prepared.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="prepared.css" name="style.css" stamp="1453793974845" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Ch5_JavaScript_jQuery/effects.html&apos; to &apos;moving_square.html&apos;" description="Rename resource &apos;effects.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="effects.html" name="moving_square.html" stamp="1453836756089" updateReferences="true"/>
+</session>

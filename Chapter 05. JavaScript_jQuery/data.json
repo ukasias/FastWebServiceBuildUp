@@ -1,0 +1,15 @@
+{
+	"result" : [
+		{
+			"name" : "Jack",
+			"address" : "Newyork"	
+		}, {
+			"name" : "Kim", 
+			"address" : "Seoul"
+		}
+	]
+}
+
+{ "name" : "kim", "address" : "seoul"}
+
+-> callback({ "name" : "kim", "address" : "seoul"});

@@ -1,0 +1,84 @@
+-- VERSION_3
+-- START DISKCACHE
+E:\workspace\Fast Web Service Build Up\.metadata\.plugins\org.eclipse.core.resources\.projects\TimeLineProject\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+timeline.models|0|E:\workspace\TimeLineService\timelineproject\timeline\models.py
+timeline.admin|0|E:\workspace\TimeLineService\timelineproject\timeline\admin.py
+timeline.tests|0|E:\workspace\TimeLineService\timelineproject\timeline\tests.py
+timelineproject.urls|0|E:\workspace\TimeLineService\timelineproject\timelineproject\urls.py
+timelineproject.cors|0|E:\workspace\TimeLineService\timelineproject\timelineproject\cors.py
+timelineproject.settings|0|E:\workspace\TimeLineService\timelineproject\timelineproject\settings.py
+timelineproject.wsgi|0|E:\workspace\TimeLineService\timelineproject\timelineproject\wsgi.py
+timeline.views|0|E:\workspace\TimeLineService\timelineproject\timeline\views.py
+timelineproject.__init__|0|E:\workspace\TimeLineService\timelineproject\timelineproject\__init__.py
+timeline.__init__|0|E:\workspace\TimeLineService\timelineproject\timeline\__init__.py
+manage|0|E:\workspace\TimeLineService\timelineproject\manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+5=timeline.tests
+8=UserProfile
+9=Message
+7=timelineproject.cors
+10=UserProfile.set_ignorelist
+3=timeline.views
+4=timeline.models
+11=Like
+6=timelineproject.urls
+1=timelineproject.settings
+13=SimpleTest
+2=timelineproject.wsgi
+12=XsSharingMiddleware
+-- END DICTIONARY
+-- START TREE 1
+32
+adm|1|ADMINS!11@
+app|1|application!19@
+che|1|checkpassword_view!26@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+fin|1|find_view!26@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+lik|2|like_view!26@Like!33@
+log|3|login_html!26@LOGGING!11@login_view!26@
+man|1|MANAGERS!11@
+med|2|MEDIA_ROOT!11@MEDIA_URL!11@
+mes|4|message_delete_view!26@message_view!26@Message!33@message_create_view!26@
+mid|1|MIDDLEWARE_CLASSES!11@
+nam|1|name_view!26@
+nee|1|need_auth!26@
+pro|1|profile_view!26@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+ser|2|serialize!26@serve_html!26@
+set|1|setpassword_view!26@
+sim|1|SimpleTest!41@
+sit|2|SITE_ID!11@SITE_ROOT!11@
+sta|3|STATIC_URL!11@STATIC_ROOT!11@STATICFILES_FINDERS!11@
+tem|3|TEMPLATE_DIRS!11@TEMPLATE_LOADERS!11@TEMPLATE_DEBUG!11@
+tim|2|TIME_ZONE!11@timeline_view!26@
+toj|1|toJSON!26@
+url|2|urlpatterns!51@url!11@
+use|5|USE_L10N!11@UserProfile!33@USE_I18N!11@user_view!26@USE_TZ!11@
+wsg|1|WSGI_APPLICATION!11@
+xs_|3|XS_SHARING_ALLOWED_METHODS!59@XS_SHARING_ALLOW_CREDENTIALS!59@XS_SHARING_ALLOWED_ORIGINS!59@
+xss|1|XsSharingMiddleware!57@
+-- END TREE
+-- START TREE 2
+14
+__u|1|__unicode__!8&34@
+com|1|comment!8&35@
+cou|1|country!8&35@
+cre|1|created!9&35@
+get|1|get_ignorelist!8&34@
+ign|2|ignores!8&35@ignores!10&35@
+mes|2|message!9&35@message!11&35@
+nic|1|nickname!8&35@
+pro|2|process_response!12&58@process_request!12&58@
+ser|2|serialize!8&34@serialize!9&34@
+set|1|set_ignorelist!8&34@
+tes|1|test_basic_addition!13&42@
+url|1|url!8&35@
+use|3|user!8&35@user!9&35@user!11&35@
+-- END TREE

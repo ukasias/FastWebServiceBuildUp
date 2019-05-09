@@ -1,0 +1,63 @@
+
+div {
+	#background-color: #149BDF;
+}
+
+.box1 {
+	#background-color: #149BDF;
+}
+
+#cho1 {
+	#background-color: #FFFFFF;
+}
+
+
+div #name {
+	#background-color: #149BDF;
+}
+
+.profile>.birth {
+	#background-color: #149BDF;
+}
+
+.profile, .photo {
+	#background-color: #149BDF;
+}
+
+.profile:hover {
+	#background-color: #149BDF;
+	#border:2px solid;
+	#border-radius:25px;
+	
+	<style type="text/css">
+	@font-face
+	{
+		font-family: Modern;
+		src:url('Sansation_Light.ttf'),
+		    url('Sansation_Light.eot'); /* IE9+ */
+	}
+	
+	div {
+		font-family:myFirstFont;
+	}
+	</style>
+}
+
+div {
+	#border:2px solid;
+	#border-radius:25px;
+	#box-shadow: 1px 1px 1px 1px #888888;
+	border-width:30px;
+	border-image:url(border.jpg) 30 round;
+}
+
+
+
+
+
+
+
+
+div {
+
+}

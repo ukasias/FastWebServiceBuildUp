@@ -1,0 +1,62 @@
+-- VERSION_3
+-- START DISKCACHE
+E:\workspace\Fast Web Service BuildUp\Aptana_Workplace\.metadata\.plugins\org.eclipse.core.resources\.projects\project2\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+polls.admin|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\admin.py
+project2.urls|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\urls.py
+polls.__init__|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\__init__.py
+project2.__init__|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\__init__.py
+project2.settings|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\settings.py
+polls.tests|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\tests.py
+polls.models|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\models.py
+project2.wsgi|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\wsgi.py
+polls.views|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\views.py
+manage|0|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+5=project2.urls
+1=project2.settings
+7=Choice
+4=polls.tests
+2=project2.wsgi
+3=polls.models
+6=Poll
+8=SimpleTest
+-- END DICTIONARY
+-- START TREE 1
+23
+adm|1|ADMINS!11@
+app|1|application!19@
+cho|1|Choice!25@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+fil|1|FILE_CHARSET!11@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+log|1|LOGGING!11@
+man|1|MANAGERS!11@
+med|2|MEDIA_ROOT!11@MEDIA_URL!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+pol|1|Poll!25@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sim|1|SimpleTest!33@
+sit|1|SITE_ID!11@
+sta|4|STATIC_URL!11@STATICFILES_FINDERS!11@STATIC_ROOT!11@STATICFILES_DIRS!11@
+tem|3|TEMPLATE_DIRS!11@TEMPLATE_LOADERS!11@TEMPLATE_DEBUG!11@
+tim|1|TIME_ZONE!11@
+url|1|urlpatterns!43@
+use|3|USE_L10N!11@USE_TZ!11@USE_I18N!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+7
+__u|1|__unicode__!6&26@
+cho|1|choice!7&27@
+pol|1|poll!7&27@
+pub|1|pub_date!6&27@
+que|1|question!6&27@
+tes|1|test_basic_addition!8&34@
+vot|1|votes!7&27@
+-- END TREE

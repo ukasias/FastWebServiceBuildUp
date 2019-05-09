@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>Drag and Drop in Titanium Desktop!</title>
+    <style type="text/css">
+        #holder
+        {
+            border: 10px dashed #ccc;
+            width: 300px;
+            height: 300px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="holder">
+        Drop files here</div>
+    <script type="text/javascript">
+        var ti_filedrop = {
+            bind_object: null,
+            files: [],
+            wait: 0,
+            bind: function(object){
+                this.bind_object = object;
+
+                object.ondragenter = object.ondragover =  function(e){
+                    e.preventDefault();
+                    e.stopPropagation();
+                    e.dataTransfer.effectAllowed = 'all';
+                    e.dataTransfer.dropEffect = 'all';
+                    if(e.dataTransfer.files.length){
+                        ti_filedrop.files = e.dataTransfer.files;
+                        ti_filedrop.wait = 0;
+                    }
+                };
+
+                object.onmousemove = function(e){
+                    if(ti_filedrop.files.length == 0) return;
+                    ti_filedrop.wait++
+                    if(ti_filedrop.wait > 5){
+                        var evt = ti_filedrop.bind_object.createEvent('Event');
+                        evt.initEvent('drop', true, true);
+                        evt.files = ti_filedrop.files;
+                        ti_filedrop.files = [];
+                        ti_filedrop.wait = 0;
+                        ti_filedrop.bind_object.dispatchEvent(evt);
+                    }
+                };
+            }
+        }
+
+        ti_filedrop.bind(document);
+        document.addEventListener('drop', function(e){
+           alert(e.files[0].path);
+        }, false);
+
+//        window.onload = function () {
+//            var div = document.getElementById('holder');
+//            div.ondragenter = div.ondragover = function (e) {
+//                e.preventDefault();
+//                e.dataTransfer.dropEffect = 'copy';
+//                Titanium.API.debug(e.dataTransfer.files[0].path);
+//                return false;
+//            }
+//            div.ondragend = function(e){
+//                Titanium.API.debug('ondragend');
+//            }
+//            div.ondragout = function(e){
+//                Titanium.API.debug('ondragout');
+//            }
+//
+//            div.onmousemove = function(e){
+//                if(e.button !== false) Titanium.API.debug('MOUSEMOVE > ' + e.button);
+//            }
+//
+//            div.onmousedown = function(e){
+//                Titanium.API.debug('Mouse down');
+//            }
+//
+//            div.drop = function (e) {
+//                Titanium.API.debug('DROP');
+//                for (var i = 0; i < e.dataTransfer.files.length; i++) { // e.dataTransfer is a DataTransfer object (https://developer.mozilla.org/En/DragDrop/DataTransfer), e.dataTransfer.files is a FileList object (https://developer.mozilla.org/en/DOM/FileList)
+//                    var file = e.dataTransfer.files[i]; // file is a File object (https://developer.mozilla.org/en/DOM/File)
+//
+//                    var tiFile = Titanium.Filesystem.getFile(file.path);
+//
+//                    // log the browser file
+//                    Titanium.API.debug(file);
+//                    // log the Titanium wrapped version of this file, and that it exists
+//                    Titanium.API.debug(tiFile, tiFile.exists());
+//                    // log the contents of the file, with '' appended to force the blob to convert to a string
+//                    Titanium.API.debug(tiFile.read() + '');
+//                }
+//
+//                e.preventDefault();
+//                return false;
+//            }
+//        }
+    </script>
+</body>
+</html>

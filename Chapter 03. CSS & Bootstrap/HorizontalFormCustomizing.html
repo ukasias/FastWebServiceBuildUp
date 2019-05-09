@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>HorizontalForm</title>
+		<meta name="description" content="">
+		<meta name="author" content="Administrator">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link href="../bootstrap/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="../bootstrap/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="../google-code-prettify/prettify.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="../google-code-prettify/prettify.js"></script>
+	</head>
+
+	<body>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+		</script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.18/jquery-ui.min.js">
+		</script>
+		<script src="../bootstrap/bootstrap/js/bootstrap.js"></script>
+		<div>
+			<header>
+				<h1>Horizontal Form Customizing</h1>
+			</header>
+			<form class="form-horizontal">
+				<fieldset>
+					<div class="control-group">
+						<label for="focusedInput" class="control-label">Focused input</label>
+						<div class="controls">
+							<input type="text" value="This is focused" id="focusedInput" class="input-xlarge focused">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label">Uneditable input</label>
+						<div class="controls">
+							<span class="input-xlarge uneditable-input">Some value here</span>
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="disabledInput" class="control-label">Disabled input</label>
+						<div class="controls">
+							<input type="text" disabled="" id="disabledInput" class="input-xlarge disabled">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="optionsCheckbox2" class="control-label">Disabled checkbox</label>
+						<div class="controls">
+							<label class="checkbox">
+								<input type="checkbox" disabled="" value="option1" id="optionsCheckbox2">
+								This is a disabled checkbox
+							</label>
+						</div>
+					</div>
+					<div class="control-group warning">
+						<label for="inputWarning" class="control-label">Input with warning</label>
+						<div class="controls">
+							<input type="text" id="inputWarning">
+							<span class="help-inline">Something may have gone wrong</span>
+						</div>
+					</div>
+					<div class="control-group error">
+						<label for="inputError" class="control-label">Input with error</label>
+						<div class="controls">
+							<input type="text" id="inputError">
+							<span class="help-inline">Please correct the error</span>
+						</div>
+					</div>
+					<div class="control-group success">
+						<label for="inputSuccess" class="control-label">Input with success</label>
+						<div class="controls">
+							<input type="text" id="inputSuccess">
+							<span class="help-inline">Woohoo!</span>
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="selectError" class="control-label">Select with success</label>
+						<div class="controls">
+							<select id="selectError">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<span class="help-inline">Woohoo!</span>
+						</div>
+					</div>
+					<div class="form-actions">
+						<button class="btn btn-primary" type="submit">
+							Save changes
+						</button>
+						<button class="btn">Cancel</button>
+					</div>
+				</fieldset>
+			</form>
+			<i class="icon-search"></i>
+			<i class="icon-search icon-white"></i>
+		</div>
+	</body>
+</html>

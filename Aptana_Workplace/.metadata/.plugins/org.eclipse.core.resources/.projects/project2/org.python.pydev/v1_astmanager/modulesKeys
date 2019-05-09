@@ -1,0 +1,11 @@
+MODULES_MANAGER_V2
+manage|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\manage.py
+polls.__init__|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\__init__.py
+polls.admin|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\admin.py
+polls.models|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\models.py
+polls.tests|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\tests.py
+polls.views|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\polls\views.py
+project2.__init__|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\__init__.py
+project2.settings|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\settings.py
+project2.urls|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\urls.py
+project2.wsgi|E:\workspace\Fast Web Service BuildUp\Chapter 04. Python引 Django\project2\project2\wsgi.py

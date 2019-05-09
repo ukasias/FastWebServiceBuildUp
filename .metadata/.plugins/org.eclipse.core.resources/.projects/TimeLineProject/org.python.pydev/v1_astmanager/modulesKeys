@@ -1,0 +1,12 @@
+MODULES_MANAGER_V2
+manage|E:\workspace\TimeLineService\timelineproject\manage.py
+timeline.__init__|E:\workspace\TimeLineService\timelineproject\timeline\__init__.py
+timeline.admin|E:\workspace\TimeLineService\timelineproject\timeline\admin.py
+timeline.models|E:\workspace\TimeLineService\timelineproject\timeline\models.py
+timeline.tests|E:\workspace\TimeLineService\timelineproject\timeline\tests.py
+timeline.views|E:\workspace\TimeLineService\timelineproject\timeline\views.py
+timelineproject.__init__|E:\workspace\TimeLineService\timelineproject\timelineproject\__init__.py
+timelineproject.cors|E:\workspace\TimeLineService\timelineproject\timelineproject\cors.py
+timelineproject.settings|E:\workspace\TimeLineService\timelineproject\timelineproject\settings.py
+timelineproject.urls|E:\workspace\TimeLineService\timelineproject\timelineproject\urls.py
+timelineproject.wsgi|E:\workspace\TimeLineService\timelineproject\timelineproject\wsgi.py

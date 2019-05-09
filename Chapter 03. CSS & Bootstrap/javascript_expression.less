@@ -1,0 +1,14 @@
+@var: `"hello".toUpperCase() + '!'`;
+@str: "hello";
+@var2: ~`"@{str}".toUpperCase() + '!'`;
+
+
+@height: `document.body.clientHeight`;
+
+@color: color(`window.colors.baseColor`);
+@darkcolor: darken(@color, 10%);
+
+
+a: "@{var}";
+b: "@(var2)";
+c: "@(height)";
